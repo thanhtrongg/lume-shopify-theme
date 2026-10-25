@@ -1,0 +1,9 @@
+node_modules/
+.git/
+.github/
+.shopify/
+package.json
+pnpm-lock.yaml
+README.md
+.env
+.env.*

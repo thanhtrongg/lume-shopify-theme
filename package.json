@@ -1,0 +1,35 @@
+{
+  "name": "lume-shopify-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium Shopify storefront for LUMÉ, built with Liquid, CSS, JavaScript, and custom theme architecture.",
+  "type": "module",
+  "scripts": {
+    "dev": "shopify theme dev --store lume-atelier-ipu1pnan.myshopify.com",
+    "check": "shopify theme check",
+    "theme:list": "shopify theme list --store lume-atelier-ipu1pnan.myshopify.com",
+    "theme:info": "shopify theme info",
+    "theme:pull": "shopify theme pull --store lume-atelier-ipu1pnan.myshopify.com --theme 191112905006 --nodelete",
+    "theme:package": "shopify theme package"
+  },
+  "keywords": [
+    "shopify",
+    "shopify-theme",
+    "liquid",
+    "ecommerce",
+    "lume"
+  ],
+  "author": "Toren Studio",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.15.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.15.0"
+}
